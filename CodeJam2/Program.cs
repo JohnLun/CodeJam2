@@ -11,6 +11,7 @@ namespace CodeJam2
         {
             Console.WriteLine(FiggleFonts.Standard.Render("BLACKJACK"));
             Console.OutputEncoding = Encoding.UTF8;
+            string keepPlaying = "Y";
 
             //Welcome message
             Console.WriteLine("Welcome to BlackJack!");
@@ -22,10 +23,16 @@ namespace CodeJam2
             Player player = new Player(cashStack);
             Dealer dealer = new Dealer();
             Deck deck = new Deck();
+            Console.Clear();
 
             //While player has enough money
-            while (player.CanPlay())
+            while (player.CanPlay() && keepPlaying == "Y")
             {
+                Console.WriteLine(FiggleFonts.Standard.Render("BLACKJACK"));
+                Console.WriteLine("Current Balance:");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(FiggleFonts.Standard.Render($"${player.GetCashStack()}"));
+                Console.ResetColor();
                 player.FullReset();
                 dealer.FullReset();
                 List<int> playerHand = new List<int>();
@@ -52,9 +59,6 @@ namespace CodeJam2
                 Console.WriteLine("\n");
                 deck.PrintHand(player.GetHand());
 
-                Console.WriteLine(player.GetTotScore());
-                Console.WriteLine(dealer.GetTotScore());
-
                 string ans = "";
                 bool playerLost = false;
                 while (ans != "S")
@@ -79,8 +83,16 @@ namespace CodeJam2
 
                 if(playerLost)
                 {
+                    Console.WriteLine("You Lost:\n");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"-${wager}");
+                    Console.ResetColor();
+                    Thread.Sleep(3000);
+                    Console.Clear();
+
                     continue;
                 }
+                bool dealerBust = false;
 
                 while (dealer.MustHit())
                 {
@@ -90,17 +102,32 @@ namespace CodeJam2
                     Console.WriteLine("\n");
                     if (dealer.Bust())
                     {
-                        player.Win();
-                        Console.WriteLine($"You Won {wager * 2}!!");
+                        dealerBust = true;
                         break;
                     }
                 }
-                if (player.GetTotScore() > dealer.GetTotScore())
+
+                if (player.GetTotScore() >= dealer.GetTotScore() || dealerBust)
                 {
-                    Console.WriteLine("YOU WIN!!!");
+                    Console.WriteLine("You Won:\n");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"+${wager * 2}");
+                    Console.ResetColor();
                     player.Win();
+                } else
+                {
+                    Console.WriteLine("You Lost:\n");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"-${wager}");
+                    Console.ResetColor();
                 }
-              
+                Console.WriteLine("New Balance:\n");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(FiggleFonts.Standard.Render($"${player.GetCashStack()}"));
+                Console.ResetColor();
+                Console.WriteLine("Play Again? [Y/N]");
+                keepPlaying = Console.ReadLine().ToUpper();
+                Console.Clear();
                 deck = new Deck();
 
             }
@@ -167,6 +194,7 @@ namespace CodeJam2
                     }
                     
                 }
+                
                 Console.Write(FiggleFonts.Standard.Render(toRender.ToString()));
             }
 
@@ -261,6 +289,11 @@ namespace CodeJam2
                 return true;
             }
 
+
+            public int GetCashStack()
+            {
+                return this.cashStack;
+            }
             public void FullReset()
             {
                 playerHand = new List<int>();

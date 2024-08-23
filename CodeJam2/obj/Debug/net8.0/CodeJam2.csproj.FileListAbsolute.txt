@@ -18,3 +18,4 @@ C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.pdb
 C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.genruntimeconfig.cache
 C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\obj\Debug\net8.0\ref\CodeJam2.dll
 C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\bin\Debug\net8.0\Figgle.dll
+C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.sourcelink.json
