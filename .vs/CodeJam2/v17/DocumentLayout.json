@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jmfumej\\source\\repos\\CodeJam2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B712A0A5-8220-4C4E-B300-09D08CE5159F}|CodeJam2\\CodeJam2.csproj|c:\\users\\jmfumej\\source\\repos\\codejam2\\codejam2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B712A0A5-8220-4C4E-B300-09D08CE5159F}|CodeJam2\\CodeJam2.csproj|solutionrelative:codejam2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B712A0A5-8220-4C4E-B300-09D08CE5159F}|CodeJam2\\CodeJam2.csproj|c:\\users\\jmfumej\\source\\repos\\codejam2\\codejam2\\codejam2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B712A0A5-8220-4C4E-B300-09D08CE5159F}|CodeJam2\\CodeJam2.csproj|solutionrelative:codejam2\\codejam2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CodeJam2.csproj",
+              "DocumentMoniker": "C:\\Users\\jmfumej\\source\\repos\\CodeJam2\\CodeJam2\\CodeJam2.csproj",
+              "RelativeDocumentMoniker": "CodeJam2\\CodeJam2.csproj",
+              "ToolTip": "C:\\Users\\jmfumej\\source\\repos\\CodeJam2\\CodeJam2\\CodeJam2.csproj",
+              "RelativeToolTip": "CodeJam2\\CodeJam2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-22T14:58:47.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jmfumej\\source\\repos\\CodeJam2\\CodeJam2\\Program.cs",
+              "RelativeDocumentMoniker": "CodeJam2\\Program.cs",
+              "ToolTip": "C:\\Users\\jmfumej\\source\\repos\\CodeJam2\\CodeJam2\\Program.cs",
+              "RelativeToolTip": "CodeJam2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T14:42:57.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
