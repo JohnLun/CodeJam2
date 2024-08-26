@@ -1,6 +1,7 @@
 ﻿using Figgle;
 using SixLabors.ImageSharp;
 using Spectre.Console;
+using System.Data;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 namespace CodeJam2
@@ -62,8 +63,10 @@ namespace CodeJam2
                 dealer.AddScore(hands[3]);
 
                 //Printing Dealer + Player hands to console
+                Console.WriteLine(FiggleFonts.ThreePoint.Render("Dealer Hand"));
                 deck.PrintHand(dealer.GetHand());
                 Console.WriteLine("\n");
+                Console.WriteLine(FiggleFonts.ThreePoint.Render("Player Hand"));
                 deck.PrintHand(player.GetHand());
 
                 //Keep dealing while player keeps hitting
@@ -75,10 +78,14 @@ namespace CodeJam2
                     ans = Console.ReadLine().ToUpper();
                     if (ans == "H")
                     {
+                        Console.Clear();
                         player.Add(deck.Hit());
+                        Console.WriteLine(FiggleFonts.ThreePoint.Render("Dealer Hand"));
                         deck.PrintHand(dealer.GetHand());
                         Console.WriteLine("\n");
+                        Console.WriteLine(FiggleFonts.ThreePoint.Render("Player Hand"));
                         deck.PrintHand(player.GetHand());
+                       
                         Console.WriteLine("\n");
                     }
 
@@ -109,9 +116,14 @@ namespace CodeJam2
                 //Keep dealing to dealer while below score of 17
                 while (dealer.MustHit())
                 {
+                    
                     dealer.AddScore(deck.Hit());
+                    Console.WriteLine(FiggleFonts.ThreePoint.Render("Dealer Hand"));
                     deck.PrintHand(dealer.GetHand());
+                    Console.WriteLine(FiggleFonts.ThreePoint.Render("Player Hand"));
                     deck.PrintHand(player.GetHand());
+                    Thread.Sleep(3000);
+                    
                     Console.WriteLine("\n");
 
                     //If dealer busts, player wins
@@ -120,6 +132,7 @@ namespace CodeJam2
                         dealerBust = true;
                         break;
                     }
+                    
                 }
 
                 //Checking if player's score greater than dealer's score

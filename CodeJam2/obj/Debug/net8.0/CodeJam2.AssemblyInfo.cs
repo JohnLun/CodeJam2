@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeJam2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cd16f0651487f45a4a9feaf3eb7e2b4c2f1b3e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b26e43c6ab015c09096a9cf25d8857ab4eafc001")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeJam2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeJam2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
