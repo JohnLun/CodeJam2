@@ -193,6 +193,7 @@ namespace CodeJam2
             }
 
             //Prints the hand
+            // There shoud be more clarification on which hand is mine vs the Dealer
             public void PrintHand(List<int> hand)
             {
                 StringBuilder toRender = new StringBuilder();

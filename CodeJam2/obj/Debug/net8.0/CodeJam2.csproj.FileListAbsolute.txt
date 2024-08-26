@@ -19,3 +19,24 @@ C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.genrun
 C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\obj\Debug\net8.0\ref\CodeJam2.dll
 C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\bin\Debug\net8.0\Figgle.dll
 C:\Users\jmfumej\source\repos\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.sourcelink.json
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\CodeJam2.exe
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\CodeJam2.deps.json
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\CodeJam2.runtimeconfig.json
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\CodeJam2.dll
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\CodeJam2.pdb
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\Figgle.dll
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\bin\Debug\net8.0\Spectre.Console.ImageSharp.dll
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.csproj.AssemblyReference.cache
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.AssemblyInfoInputs.cache
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.AssemblyInfo.cs
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.csproj.CoreCompileInputs.cache
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.sourcelink.json
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.csproj.CopyComplete
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.dll
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\refint\CodeJam2.dll
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.pdb
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\CodeJam2.genruntimeconfig.cache
+C:\Users\jmfbyau\OneDrive - JM Family Enterprises\Desktop\ITS Folder\Peer View\CodeJam2\CodeJam2\obj\Debug\net8.0\ref\CodeJam2.dll
